@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="webElements.TextBox_Register">
+        <methods>
+          <include name="afterClass"/>
+          <include name="register"/>
+          <include name="afterTest"/>
+          <include name="afterSuit"/>
+          <include name="beforeTest"/>
+          <include name="login"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- webElements.TextBox_Register -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
